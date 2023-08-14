@@ -20,7 +20,7 @@ while True:
         f = 1000
         s = 500
         winsound.Beep(f, s)
-    cv2.imshow('------------------------ALERT-----------------------------Fire Detection', fr)
+    cv2.imshow('Fire Detection', fr)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 cap.release()
